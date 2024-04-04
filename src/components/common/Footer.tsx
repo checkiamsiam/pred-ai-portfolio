@@ -13,19 +13,29 @@ const Footer = () => {
           <div>
             <ul className="flex flex-col gap-3">
               <li className="uppercase font-medium">
-                <a href="#our-vision">OUR VISION</a>
+                <a href="#our-vision" className="hover:underline">
+                  OUR VISION
+                </a>
               </li>
               <li className="uppercase font-medium">
-                <a href="#the-product">THE PRODUCT</a>
+                <a href="#the-product" className="hover:underline">
+                  THE PRODUCT
+                </a>
               </li>
               <li className="uppercase font-medium">
-                <a href="#why-spredai">WHY $PREDAI</a>
+                <a href="#why-spredai" className="hover:underline">
+                  WHY $PREDAI
+                </a>
               </li>
               <li className="uppercase font-medium">
-                <a href="#roadmap">ROADMAP</a>
+                <a href="#roadmap" className="hover:underline">
+                  ROADMAP
+                </a>
               </li>
               <li className="uppercase font-medium">
-                <a href="">INVESTOR INQUIERIES</a>
+                <a href="" className="hover:underline">
+                  INVESTOR INQUIERIES
+                </a>
               </li>
             </ul>
           </div>
@@ -33,13 +43,19 @@ const Footer = () => {
           <div>
             <ul className="flex flex-col gap-3">
               <li className="uppercase font-medium">
-                <a href="">X / TWITTER</a>
+                <a href="" className="hover:underline">
+                  X / TWITTER
+                </a>
               </li>
               <li className="uppercase font-medium">
-                <a href="">TELEGRAM</a>
+                <a href="" className="hover:underline">
+                  TELEGRAM
+                </a>
               </li>
               <li className="uppercase font-medium">
-                <a href="">DEXSCREENER</a>
+                <a href="" className="hover:underline">
+                  DEXSCREENER
+                </a>
               </li>
             </ul>
           </div>

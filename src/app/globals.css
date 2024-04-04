@@ -2,12 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "react-modern-drawer/dist/index.css";
+
 :root {
   --background-color: #e5e5e5;
   --foreground-color: #000000;
 }
 
-*{
+* {
   scroll-behavior: smooth;
 }
 
