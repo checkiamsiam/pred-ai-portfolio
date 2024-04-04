@@ -4,7 +4,7 @@ import Container from "./Container";
 const SectionDivider = () => {
   return (
     <Container>
-      <div>
+      <div className="md:py-10 py-5">
         <div className="flex items-center justify-between">
           <div className="md:w-[4%] md:mb-10 mb-2">
             <Image src="/img/thin-star.png" alt="divider-star" width={35} height={35} />

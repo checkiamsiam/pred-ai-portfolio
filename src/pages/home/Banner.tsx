@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <Container>
       <div className="md:py-10 py-5">
-        <div className="sm:-mb-8 md:-mb-12">
+        <div className="sm:-mb-8 md:-mb-12 mb-5">
           <div className="flex gap-3 mb-3 ">
             <h1 className="uppercase xl:text-[45px] lg:text-[35px] md:text-[25px] sm:text-[20px]">democratize access to advanced</h1>
             <div className="flex justify-center items-center">
@@ -14,7 +14,7 @@ const Banner = () => {
           </div>
           <h1 className="uppercase xl:text-[45px] lg:text-[35px] md:text-[25px] sm:text-[20px]">deep learning models</h1>
         </div>
-        <div className="bg-[url('/img/HeroBackground.png')] bg-cover  bg-no-repeat bg-center min-h-[800px] flex justify-center items-center">
+        <div className="bg-[url('/img/HeroBackground.png')] bg-cover  bg-no-repeat bg-center xl:min-h-[800px] min-h-[700px] flex justify-center items-center">
           <div>
             <Image src="/img/HeroImage.png" alt="banner" width={500} height={500} />
           </div>
@@ -26,13 +26,13 @@ const Banner = () => {
               <Image src="/img/Copy.png" alt="copy" width={24} height={24} />
             </button>
           </div>
-          <div>
+          <div className="sm:mt-0 mt-5">
             <h1 className="uppercase xl:text-[45px] lg:text-[30px] md:text-[25px] sm:text-[20px] sm:text-end sm:mt-0 mt-5">DECENTRALIZED</h1>
-            <div className="flex gap-3 xl:mb-3 lg:mb-5">
+            <div className="flex gap-3 xl:mb-3 lg:mb-5 sm:mt-0 mt-5">
               <div className="flex justify-center items-center">
                 <Image src="/img/star.png" alt="line" width={35} height={35} />
               </div>
-              <h1 className="uppercase xl:text-[45px] lg:text-[30px] md:text-[25px] sm:text-[20px]">models MARKETPLACE</h1>
+              <h1 className="uppercase xl:text-[45px]  lg:text-[30px] md:text-[25px] sm:text-[20px]">models MARKETPLACE</h1>
             </div>
           </div>
         </div>
