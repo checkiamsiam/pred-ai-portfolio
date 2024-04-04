@@ -17,14 +17,14 @@ const Roadmap = () => {
             fringilla semper. Fusce vitae libero vel ligula fringilla pulvinar. Phasellus varius at arcu quis ultricies. Donec a placerat purus."
               />
             </div>
-            <div className="xl:mt-14 mt-5 sm:mb-0 mb-10">
+            <div className="xl:mt-14 mt-5 sm:mb-0 mb-5">
               <RoadmapCard
                 date="Q2 2024"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum pretium quam non scelerisque. Quisque aliquet diam a felis
             fringilla semper. Fusce vitae libero vel ligula fringilla pulvinar. Phasellus varius at arcu quis ultricies. Donec a placerat purus."
               />
             </div>
-            <div className="xl:mt-14 mt-5 sm:mb-0 mb-10">
+            <div className="xl:mt-28 mt-5 sm:mb-0 mb-5">
               <RoadmapCard
                 date="Q3 2024"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dictum pretium quam non scelerisque. Quisque aliquet diam a felis
