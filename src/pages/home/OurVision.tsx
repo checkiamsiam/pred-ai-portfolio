@@ -4,7 +4,7 @@ import Image from "next/image";
 const OurVision = () => {
   return (
     <Container>
-      <div className="flex lg:flex-row flex-col-reverse  lg:gap-16 md:gap-10">
+      <div id="our-vision" className="flex lg:flex-row flex-col-reverse  lg:gap-16 md:gap-10">
         <div className="mt-5  lg:w-1/2 w-full">
           <div className="xl:mb-10 mb-5">
             <h1 className="uppercase xl:text-[45px] lg:text-[35px] text-[25px] ">Our vision</h1>

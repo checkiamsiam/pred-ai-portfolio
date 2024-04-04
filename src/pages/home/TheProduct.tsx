@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 const TheProduct = () => {
   return (
     <Container>
-      <div>
+      <div id="the-product">
         <div className="xl:mb-10 mb-5">
           <h1 className="uppercase xl:text-[45px] lg:text-[35px] text-[25px] ">The Product</h1>
         </div>

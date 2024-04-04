@@ -4,7 +4,7 @@ import Image from "next/image";
 const WhySpredAi = () => {
   return (
     <Container>
-      <div className="">
+      <div id="why-spredai">
         <h1 className="uppercase xl:text-[45px] lg:text-[35px] text-[25px] ">WHY $PREDAI</h1>
       </div>
       <div className="flex lg:flex-row flex-col  lg:gap-16 md:gap-10">
