@@ -17,7 +17,7 @@ const OurVision = () => {
             adoption, envisioning a future where AI&apos;s transformative power is universally accessible.
           </p>
           <div>
-            <button className="bg-foreground rounded-2xl  flex  justify-center items-center md:h-16 md:w-56 px-5 py-3">
+            <button className="bg-foreground rounded-2xl  flex  justify-center items-center md:h-16 md:w-56 px-5 py-3 hover:animate-pulse">
               <span className="text-background">OPEN DAPP</span>
             </button>
           </div>

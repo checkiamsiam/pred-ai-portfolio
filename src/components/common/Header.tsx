@@ -1,7 +1,7 @@
 import Image from "next/image";
+import { MdMenu } from "react-icons/md";
 import Button from "../ui/Button";
 import Container from "./Container";
-// clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 100%, 20% 100%, 0% 80%);
 
 const Header = () => {
   return (
@@ -15,11 +15,16 @@ const Header = () => {
             <Button>WHY $PREDAI</Button>
             <Button>ROADMAP</Button>
             <Button transparent>INVESTOR INQUIERIES</Button>
-            <button className="h-11 w-11 bg-foreground rounded-full flex justify-center items-center">
+            <button className="h-11 w-11 bg-foreground rounded-full flex justify-center items-center hover:-translate-y-1 transition-all duration-300 ease-in-out">
               <Image src="/svg/telegram.svg" alt="send" width={24} height={24} />
             </button>
-            <button className="h-11 w-11 bg-foreground rounded-full flex justify-center items-center">
+            <button className="h-11 w-11 bg-foreground rounded-full flex justify-center items-center hover:-translate-y-1 transition-all duration-300 ease-in-out">
               <Image src="/svg/twitter.svg" alt="send" width={24} height={24} />
+            </button>
+          </div>
+          <div className="xl:hidden flex">
+            <button className="p-2">
+              <MdMenu className="text-2xl" />
             </button>
           </div>
         </nav>

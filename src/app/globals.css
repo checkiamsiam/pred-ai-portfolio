@@ -11,3 +11,19 @@ body {
   color: var(--foreground-color);
   background: var(--background-color);
 }
+
+.curved-container {
+  position: relative;
+  clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 100%, 20% 100%, 0% 80%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--foreground-color);
+  z-index: 5;
+}
+
+.curved-body {
+  /* position: absolute; */
+  clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 100%, 20% 100%, 0% 80%);
+  z-index: 10;
+}

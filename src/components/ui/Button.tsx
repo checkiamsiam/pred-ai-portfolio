@@ -5,7 +5,7 @@ const Button = ({ children, transparent = false }: { children: React.ReactNode; 
   return (
     <button
       className={cn(
-        "min-h-11 min-w-36 px-5  rounded-full flex justify-center items-center",
+        "min-h-11 min-w-36 px-5  rounded-full flex justify-center items-center hover:animate-pulse ",
         transparent ? "border-2 border-foreground" : "bg-foreground"
       )}
     >
