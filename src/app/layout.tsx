@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "PRED AI",
-  description: "DEMOCRATIZE ACCESS TO ADVANCED, DEEP LEARNING MODELS",
+  description: "Democratize access to advanced, deep learning models",
 };
 
 export default function RootLayout({
