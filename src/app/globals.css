@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import "react-modern-drawer/dist/index.css";
+@import "aos/dist/aos.css";
 
 :root {
   --background-color: #e5e5e5;

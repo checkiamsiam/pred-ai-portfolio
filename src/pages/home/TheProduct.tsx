@@ -10,10 +10,18 @@ const TheProduct = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 grid-cols-1 sm:gap-20 gap-5">
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
-          <ProductCard />
+          <div data-aos="zoom-in" data-aos-duration="500">
+            <ProductCard />
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1400">
+            <ProductCard />
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="500">
+            <ProductCard />
+          </div>
+          <div data-aos="zoom-in" data-aos-duration="1400">
+            <ProductCard />
+          </div>
         </div>
       </div>
     </Container>
