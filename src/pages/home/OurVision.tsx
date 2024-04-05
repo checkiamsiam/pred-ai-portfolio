@@ -6,10 +6,10 @@ const OurVision = () => {
     <Container>
       <div id="our-vision" className="flex lg:flex-row flex-col-reverse  lg:gap-16 md:gap-10">
         <div className="mt-5  lg:w-1/2 w-full">
-          <div className="xl:mb-10 mb-5">
+          <div data-aos="fade-down" data-aos-anchor-placement="center-bottom" data-aos-duration="400" className="xl:mb-10 mb-5">
             <h1 className="uppercase xl:text-[45px] lg:text-[35px] text-[25px] ">Our vision</h1>
           </div>
-          <p className="text-justify xl:text-xl xl:mb-16  mb-5">
+          <p data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" className="text-justify xl:text-xl xl:mb-16  mb-5">
             Artificial intelligence represents a transformative force for humanity, empowering individuals and enterprises by unlocking new levels of
             efficiency, innovation, and insight, already transforming the way we live and work. This milestone in human achievement propels our
             society into a new era of innovation and reshaping our world in ways we are only beginning to understand. At PredictAI, we aim to unlock
@@ -22,7 +22,7 @@ const OurVision = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center lg:w-1/2 w-full">
+        <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="600" className="flex justify-center lg:w-1/2 w-full">
           <Image src="/img/vision-image.png" alt="our-vision" width={593} height={576} />
         </div>
       </div>
