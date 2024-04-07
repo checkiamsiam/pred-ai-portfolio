@@ -1,7 +1,7 @@
 const RoadmapCard = ({ date, text }: { date: string; text: string }) => {
   return (
     <div className="flex xl:flex-col sm:flex-row flex-col justify-center items-center ">
-      <div className="xl:hidden flex justify-center sm:-mt-56 sm:mb-0 mb-5">
+      <div className="xl:hidden sm:flex hidden justify-center sm:-mt-56 sm:mb-0 mb-5">
         <div className="flex flex-col justify-center items-center -mt-8 -mr-8">
           <div className="h-16 w-16 bg-background border-[15px] border-foreground rounded-full z-20" />
           <h1 className="uppercase xl:text-[35px] lg:text-[25px] text-[20px] sm:mt-5 mt-2">{date}</h1>
@@ -16,8 +16,14 @@ const RoadmapCard = ({ date, text }: { date: string; text: string }) => {
           <p className="">{text}</p>
         </div>
       </div>
-      <div className="hidden justify-center xl:flex">
-        <div className="h-56 w-[1px] bg-foreground" />
+      <div className="sm:hidden justify-center xl:flex flex">
+        <div className="sm:h-56 h-12 w-[1px] bg-foreground" />
+      </div>
+      <div className="sm:hidden justify-center flex ">
+        <div className="flex flex-col justify-center items-center">
+          <div className="h-16 w-16 bg-background border-[15px] border-foreground rounded-full z-20" />
+          <h1 className="uppercase xl:text-[35px] lg:text-[25px] text-[20px] sm:mt-5 mt-2">{date}</h1>
+        </div>
       </div>
     </div>
   );
